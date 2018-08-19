@@ -2,8 +2,9 @@
   "name": "@jukben/eslint-config",
   "version": "0.0.1",
   "description": "My personal, opinionated ESlint config",
-  "main": "index.js",
   "license": "MIT",
+  "author": "Jakub Benes <jukben@gmail.com>",
+  "main": "index.js",
   "dependencies": {
     "babel-eslint": "^8.2.6",
     "eslint-config-prettier": "^3.0.1",
