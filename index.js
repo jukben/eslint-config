@@ -3,6 +3,7 @@ module.exports = {
   extends: [
     "airbnb",
     "plugin:flowtype/recommended",
+    "plugin:jest/recommended",
     "prettier",
     "prettier/flowtype",
     "prettier/react"
@@ -15,7 +16,8 @@ module.exports = {
   plugins: ["flowtype", "react", "jest", "prettier"],
   rules: {
     "import/prefer-default-export": 0,
-    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
+    "jsx-a11y/label-has-associated-control": 0
   },
   settings: {
     "import/resolver": {
