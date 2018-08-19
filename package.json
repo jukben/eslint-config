@@ -5,6 +5,10 @@
   "license": "MIT",
   "author": "Jakub Benes <jukben@gmail.com>",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
   "dependencies": {
     "babel-eslint": "8.2.6",
     "eslint-config-airbnb": "17.1.0",
@@ -18,7 +22,7 @@
     "prettier": "1.14.2"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1 || ^5.3.0"
+    "eslint": "^4.19.1 || ^5.4.0"
   },
   "devDependencies": {
     "eslint": "^5.4.0"
