@@ -6,17 +6,19 @@ module.exports = {
     "plugin:jest/recommended",
     "prettier",
     "prettier/flowtype",
-    "prettier/react"
+    "prettier/react",
+    "plugin:cypress/recommended"
   ],
   env: {
     browser: true,
     es6: true,
-    node: true
+    node: true,
+    "cypress/globals": true
   },
-  plugins: ["flowtype", "react", "jest", "prettier"],
+  plugins: ["flowtype", "react", "jest", "prettier", "cypress"],
   rules: {
     "import/prefer-default-export": 0,
-    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }]
   },
   settings: {
     "import/resolver": {

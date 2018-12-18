@@ -175,9 +175,10 @@ babel-code-frame@^6.26.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-eslint@^8.2.6:
+babel-eslint@8.2.6:
   version "8.2.6"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-8.2.6.tgz#6270d0c73205628067c0f7ae1693a9e797acefd9"
+  integrity sha512-aCdHjhzcILdP8c9lej7hvXKvQieyRt20SF102SIGyY4cUIiw6UaAtK4j2o3dXX74jEmy0TJ0CEhv4fTIM3SzcA==
   dependencies:
     "@babel/code-frame" "7.0.0-beta.44"
     "@babel/traverse" "7.0.0-beta.44"
@@ -374,17 +375,19 @@ eslint-config-airbnb-base@^13.1.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-airbnb@^17.1.0:
+eslint-config-airbnb@17.1.0:
   version "17.1.0"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-17.1.0.tgz#3964ed4bc198240315ff52030bf8636f42bc4732"
+  integrity sha512-R9jw28hFfEQnpPau01NO5K/JWMGLi6aymiF6RsnMURjTk+MqZKllCqGK/0tOvHkPi/NWSSOU2Ced/GX++YxLnw==
   dependencies:
     eslint-config-airbnb-base "^13.1.0"
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-prettier@^3.0.1:
+eslint-config-prettier@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-3.0.1.tgz#479214f64c1a4b344040924bfb97543db334b7b1"
+  integrity sha512-vA0TB8HCx/idHXfKHYcg9J98p0Q8nkfNwNAoP7e+ywUidn6ScaFS5iqncZAHPz+/a0A/tp657ulFHFx/2JDP4Q==
   dependencies:
     get-stdin "^6.0.0"
 
@@ -402,9 +405,17 @@ eslint-module-utils@^2.2.0:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-flowtype@^2.50.0:
+eslint-plugin-cypress@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-2.1.3.tgz#29fc150136bfd4a23d9bb941318e751fdd4452dd"
+  integrity sha512-b6HJMATg+oIvSG6gOTHwHdh+XEtmIzbBLCb0y/XCmwHObv+b+kUXoXn6b9lJXvOK9w5iAPjYBxmSWRFLc8StIg==
+  dependencies:
+    globals "^11.0.1"
+
+eslint-plugin-flowtype@2.50.0:
   version "2.50.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.50.0.tgz#953e262fa9b5d0fa76e178604892cf60dfb916da"
+  integrity sha512-10FnBXCp8odYcpUFXGAh+Zko7py0hUWutTd3BN/R9riukH360qNPLYPR3/xV9eu9K7OJDjJrsflBnL6RwxFnlw==
   dependencies:
     lodash "^4.17.10"
 
@@ -423,9 +434,10 @@ eslint-plugin-import@2.14.0:
     read-pkg-up "^2.0.0"
     resolve "^1.6.0"
 
-eslint-plugin-jest@^21.21.0:
+eslint-plugin-jest@21.21.0:
   version "21.21.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.21.0.tgz#f0afd138c4acb5f0cd7698318fb49c7d49f3bf45"
+  integrity sha512-qoYGTPYuV8bvFYkWj19y4VTq5f2QiNky1Z97rx8RRcPhyJOYbaOs+vjdA/B2FkwWKB46NgzB1rzreDrvEXFh5Q==
 
 eslint-plugin-jsx-a11y@6.1.1:
   version "6.1.1"
@@ -440,9 +452,10 @@ eslint-plugin-jsx-a11y@6.1.1:
     has "^1.0.3"
     jsx-ast-utils "^2.0.1"
 
-eslint-plugin-prettier@^2.6.2:
+eslint-plugin-prettier@2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-2.6.2.tgz#71998c60aedfa2141f7bfcbf9d1c459bf98b4fad"
+  integrity sha512-tGek5clmW5swrAx1mdPYM8oThrBE83ePh7LeseZHBWfHVGrHPhKn7Y5zgRMbU/9D5Td9K4CEmUPjGxA7iw98Og==
   dependencies:
     fast-diff "^1.1.1"
     jest-docblock "^21.0.0"
@@ -642,6 +655,11 @@ glob@^7.0.3, glob@^7.0.5, glob@^7.1.2:
     minimatch "^3.0.4"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
+
+globals@^11.0.1:
+  version "11.9.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-11.9.0.tgz#bde236808e987f290768a93d065060d78e6ab249"
+  integrity sha512-5cJVtyXWH8PiJPVLZzzoIizXx944O4OmRro5MWKx5fT4MgcN7OfaMutPeaTdJCCURwbWdhhcCWcKIffPnmTzBg==
 
 globals@^11.1.0, globals@^11.7.0:
   version "11.7.0"
@@ -1049,9 +1067,10 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
 
-prettier@^1.14.2:
+prettier@1.14.2:
   version "1.14.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.14.2.tgz#0ac1c6e1a90baa22a62925f41963c841983282f9"
+  integrity sha512-McHPg0n1pIke+A/4VcaS2en+pTNjy4xF+Uuq86u/5dyDO59/TtFZtQ708QIRkEZ3qwKz3GVkVa6mpxK/CpB8Rg==
 
 progress@^2.0.0:
   version "2.0.0"
