@@ -1,6 +1,6 @@
 {
   "name": "@jukben/eslint-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "My personal, opinionated ESlint config",
   "license": "MIT",
   "author": "Jakub Benes <jukben@gmail.com>",
